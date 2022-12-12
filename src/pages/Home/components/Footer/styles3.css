@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Leckerli+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+  
+  .footer-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-info  {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer1, .footer2, .footer3 {
+    font-size: small;
+    font-family: 'montserrat';
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 30%;
+  }
+  
+  .footer-name, .footer-email, .footer-numero {
+    margin-bottom: 10px;
+  }
+  
+  .footer-name, .footer-returns {
+    text-align: center;
+  }
+  
+  .footer-email, .footer-termos {
+    text-align: center;
+  }
+  
+  .footer-numero, .footer-contato {
+    text-align: end;
+  }
+  
+  .footer-separacao {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+  }
+  
+  .footer-name {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-bottom__name {
+    text-transform: uppercase;
+    font-family: RobotoBold;
+    font-size: large;
+    margin: 0px 20px;
+  }
